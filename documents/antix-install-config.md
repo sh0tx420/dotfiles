@@ -9,3 +9,5 @@ Following packages have to be removed:
 - jwm icewm icewm-common herbstluftwm
 - fluxbox fluxbox-themes-antix fluxbox-base-themes-antix
 - bluetooth gnome-bluetooth libbluetooth3 libgnome-bluetooth13
+- zsh-common ash
+- apulse libpulse0
