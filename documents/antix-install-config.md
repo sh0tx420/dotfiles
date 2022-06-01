@@ -29,3 +29,11 @@ This repository contains a script to remove the files, steps below:
 2. `chmod +x antix-rm-homedir.sh`
 3. `./antix-rm-homedir.sh`
 4. `rm -v antix-rm-homedir.sh`
+
+## Software configurations
+Edit GRUB: `/etc/default/grub`
+<br>
+After editing: `sudo grub-mkconfig -o /boot/grub/grub.cfg`
+- GRUB_TIMEOUT = 1
+- GRUB_TERMINAL = console
+- GRUB_DISABLE_OS_PROBER = true
