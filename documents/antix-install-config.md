@@ -22,3 +22,6 @@ Following packages have to be removed:
 - x11-xfs-utils xfsprogs ntfs-3g libntfs-3g883
 - mesa-utils mesa-va-drivers mesa-vdpau-drivers mesa-vulkan-drivers va-driver-all vdpau-driver-all intel-media-va-driver i965-va-driver
 - qt5-style-plugin-{cleanlooks,motif,plastique} qt5ct
+
+## Delete useless files from home dir
+1. h
