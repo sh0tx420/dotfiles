@@ -24,4 +24,8 @@ Following packages have to be removed:
 - qt5-style-plugin-{cleanlooks,motif,plastique} qt5ct
 
 ## Delete useless files from home dir
-1. h
+This repository contains a script to remove the files, steps below:
+1. `wget raw.githubusercontent.com/sh0tx420/dotfiles/main/scripts/antix-rm-homedir.sh`
+2. `chmod +x antix-rm-homedir.sh`
+3. `./antix-rm-homedir.sh`
+4. `rm -v antix-rm-homedir.sh`
