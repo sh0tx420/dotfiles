@@ -1,10 +1,10 @@
 ## Remove packages
-Command: `sudo apt purge <package>`
+Command: `sudo apt purge <packages>`
 <br>
 Run `sudo apt autoremove` in between every package group removal.
 
 Following packages have to be removed:
-- vim-common vim-tiny tmux
+- vim-common vim-tiny tmux mailcap
 - xserver-common xserver-xorg-video-sis671 wallpaper-antix
 - jwm icewm icewm-common herbstluftwm wmctrl
 - fluxbox fluxbox-themes-antix fluxbox-base-themes-antix
@@ -18,3 +18,7 @@ Following packages have to be removed:
 - gtk2-engines gtk2-engines-pixbuf gtk2-engines-murrine
 - wpasupplicant wireless-regdb wireless-tools
 - printer-driver-{brlaser,c2050,c2esp,cjet,cups-pdf,dymo,escpr,foo2zjs,foo2zjs-common,gutenprint,hpcups,hpijs,m2300w,min12xxw,pnm2ppa,postscript-hp,ptouch,pxljr,sag-gdi,splix}
+- cups-common cups-core-drivers system-config-printer-udev cups-filters-core-drivers cups-filters
+- x11-xfs-utils xfsprogs ntfs-3g libntfs-3g883
+- mesa-utils mesa-va-drivers mesa-vdpau-drivers mesa-vulkan-drivers va-driver-all vdpau-driver-all intel-media-va-driver i965-va-driver
+- qt5-style-plugin-{cleanlooks,motif,plastique} qt5ct
