@@ -98,3 +98,29 @@ Disable:
     #### Backlight & LCD device support ->
     - Lowlevel LCD controls
     - (disable everything under Lowlevel Backlight controls)
+
+## File systems
+Disable:
+- Reiserfs support
+- JFS filesystem support
+- GFS2 file system support
+- OCFS2 file system support
+- Btrfs filesystem support
+- NILFS2 file system support
+- F2FS filesystem support
+- zonefs filesystem support
+  #### DOS/FAT/EXFAT/NT Filesystems
+  - MSDOS fs support
+  - VFAT (Windows-95) fs support
+  - exFAT filesystem support
+  #### Network File Systems
+  - NFS client support
+  - NFS server support
+  - Ceph distributed file system
+  - SMB3 and CIFS support (advanced network filesystem)
+  - Coda file system support (advanced network fs)
+  - Andrew File System support (AFS)
+
+## Security options
+Disable NSA SELinux Support.
+
