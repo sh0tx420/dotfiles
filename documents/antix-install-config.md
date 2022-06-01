@@ -12,3 +12,4 @@ Following packages have to be removed:
 - zsh-common ash
 - apulse libpulse0
 - adwaita-icon-theme arc-evopro2-theme-antix arc-theme breeze-amber-cursor-theme-antix breeze-snow-cursor-theme-antix clearlooks-phenix-theme dmz-cursor-theme gnome-themes-extra gnome-themes-extra-data hicolor-icon-theme niroki-theme-antix numix-gtk-theme oxy-black-cursor-theme-antix oxy-white-cursor-theme-antix prettypink-themes
+- xfonts-base
