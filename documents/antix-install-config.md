@@ -4,7 +4,7 @@ Command: `sudo apt purge <packages>`
 Run `sudo apt autoremove` in between every package group removal.
 
 Following packages have to be removed:
-- vim-common vim-tiny tmux mailcap
+- vim-common vim-tiny tmux mailcap libreoffice-common
 - xserver-common xserver-xorg-video-sis671 wallpaper-antix
 - jwm icewm icewm-common herbstluftwm wmctrl
 - fluxbox fluxbox-themes-antix fluxbox-base-themes-antix
