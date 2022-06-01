@@ -88,13 +88,13 @@ Disable:
   - Sony Laptop Extras
   - Topstar Laptop Extras
 
-#### Graphics support ->
-- Laptop Hybrid Graphics - GPU switching support
-- ATI Radeon
-- AMD GPU
-- Nouveau (NVIDIA) cards
-- Intel 8xx/9xx/G3x/G4x/HD Graphics
+  #### Graphics support ->
+  - Laptop Hybrid Graphics - GPU switching support
+  - ATI Radeon
+  - AMD GPU
+  - Nouveau (NVIDIA) cards
+  - Intel 8xx/9xx/G3x/G4x/HD Graphics
 
-##### Backlight & LCD device support ->
-- Lowlevel LCD controls
-- (disable everything under Lowlevel Backlight controls)
+    #### Backlight & LCD device support ->
+    - Lowlevel LCD controls
+    - (disable everything under Lowlevel Backlight controls)
