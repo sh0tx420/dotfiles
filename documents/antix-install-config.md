@@ -23,6 +23,7 @@ Following packages have to be removed:
 - mesa-utils mesa-va-drivers mesa-vdpau-drivers mesa-vulkan-drivers va-driver-all vdpau-driver-all intel-media-va-driver i965-va-driver
 - qt5-style-plugin-{cleanlooks,motif,plastique} qt5ct
 - atmel-firmware midisport-firmware firmware-{amd-graphics,ath9k-htc,atheros,b43-installer,b43legacy-installer,bnx2,bnx2x,brcm80211,cavium,intel-sound,intelwimax,ipw2x00,iwlwifi,libertas,myricom,netxen,qlogic,realtek,samsung,ti-connectivity,zdl211}
+- fonts-{crosextra-caladea,crosextra-carlito,dejavu-core,dejavu-extra,dejavu,opensymbol,sil-abyssinica,ubuntu,urw-base35,vlgothic,wqy-microhei}
 
 ## Delete useless files from home dir
 This repository contains a script to remove the files, steps below:
