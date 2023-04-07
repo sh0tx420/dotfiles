@@ -5,6 +5,7 @@ backupto_dir="srv_backup" # Directory where to back up any files
 backupfrom_dirs=( # Directories to be backed up
     "3b2t.online"
     "velocity-proxy"
+    "3b2tqueue"
 )
 backupfrom_services=( # systemd service files to back up
     "3b2t.service"
