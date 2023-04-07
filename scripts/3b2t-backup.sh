@@ -10,6 +10,7 @@ backupfrom_dirs=( # Directories to be backed up
 backupfrom_services=( # systemd service files to back up
     "3b2t.service"
     "velocity.service"
+    "queueserver.service"
 )
 sqldb="anarchy" # Name of the database to back up
 
