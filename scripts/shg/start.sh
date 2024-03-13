@@ -11,9 +11,10 @@
 
 # Config options:
 CFG_SERVER_GAME="tf"
-CFG_SERVER_NAME="SHG TF2 Surf"  # just a simple identifier
-CFG_START_MAP="surf_utopia_v3"
-CFG_GSLT_TOKEN="E1F41F99EDDC1B732A07C2F9D8F956B0"
+CFG_SERVER_NAME="Team Fortress 2"  # just a simple identifier
+CFG_START_MAP="ctf_2fort"
+CFG_GSLT_TOKEN=""
+CFG_GSLT_TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 CFG_PARAMETERS=""   # if you need to set any additional parameters aside from defaults, do it here
 
 # Don't modify below unless you know what you're doing
