@@ -15,7 +15,6 @@ CFG_SERVER_NAME="Team Fortress 2"  # just a simple identifier
 CFG_START_MAP="ctf_2fort"
 CFG_GSLT_TOKEN=""
 CFG_GSLT_TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-CFG_PARAMETERS=""   # if you need to set any additional parameters aside from defaults, do it here
 
 # Don't modify below unless you know what you're doing
 
@@ -30,7 +29,7 @@ sPfx="${clRed}[SHG]${clWhite}"
 while true; do
     printf "${sPfx} Starting up gameserver: ${CFG_SERVER_NAME} | Game: ${CFG_SERVER_GAME}\n"
     printf "${clReset}"
-    ./srcds_run -console -game $CFG_SERVER_GAME +ip 0.0.0.0 +map $CFG_START_MAP +maxplayers 32 +sv_setsteamaccount $CFG_GSLT_TOKEN $CFG_PARAMETERS
+    ./srcds_run -console -game $CFG_SERVER_GAME +ip 0.0.0.0 +map $CFG_START_MAP +maxplayers 32 +sv_setsteamaccount "$CFG_GSLT_TOKEN"
     
     # After this point, the server has exited
     printf "\n${sPfx} WARNING: Gameserver '${CFG_SERVER_NAME}' closed or crashed, restarting server in 5 seconds...\n"
