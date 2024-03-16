@@ -32,5 +32,5 @@ while true; do
     
     # After this point, the server has exited
     printf "\n${sPfx} WARNING: Gameserver '${CFG_SERVER_NAME}' closed or crashed, restarting server in 5 seconds...\n"
-    sleep 5
+    sleep 1
 done
