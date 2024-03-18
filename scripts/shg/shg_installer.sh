@@ -76,14 +76,16 @@ function fnCheckDependencies {
     
     # loop through dependencies and add to missing_deps if binary not found
     for dep in "${deps[@]}"; do
-        if ! which "$dep" &> /dev/null; then
+        if ! which "$dep" >/dev/null 2>&1; then
             missing_deps+=("$dep")
         fi
     done
     
     if [ ${#missing_deps[@]} -ne 0 ]; then
         printf "${sPfx} Dependencies not found: ${missing_deps[*]}, installing...\n${clReset}"
-        sudo apt -y install "${missing_deps[@]}"
+        for idep in $missing_deps; do
+            sudo apt -y install $idep
+        done
     else
         printf "${sPfx} Dependencies found: ${missing_deps[*]}\n"
     fi
