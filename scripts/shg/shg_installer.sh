@@ -74,9 +74,9 @@ function fnCheckDependencies {
     deps=("steamcmd", "wget", "lib32gcc1", "lib32stdc++6", "libsdl2-2.0-0:i386", "libcurl4-gnutls-dev:i386")
     missing_deps=()
     
-    # loop through dependencies and add to missing_deps if binary not found
+    # loop through dependencies and add to missing_deps if package not found
     for dep in "${deps[@]}"; do
-        if ! which "$dep" >/dev/null 2>&1; then
+        if ! dpkg -s "$dep" &> /dev/null; then
             missing_deps+=("$dep")
         fi
     done
