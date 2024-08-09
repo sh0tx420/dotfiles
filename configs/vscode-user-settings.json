@@ -1,0 +1,104 @@
+{
+    /* Editor settings */
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    /*
+    "workbench.colorCustomizations": {
+        // "editor.background": "#011627"  // dark blue
+        // "editor.background": "#1C2020"
+    },
+    */
+    "editor.codeLens": false,
+    "editor.detectIndentation": false,
+    "editor.fontSize": 17,
+    "editor.cursorStyle": "line-thin",
+    "editor.autoClosingQuotes": "always",
+    "editor.dragAndDrop": false,
+    "editor.unicodeHighlight.allowedLocales": {
+        "en": true
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [],
+    "workbench.editor.empty.hint": "hidden",
+
+    "files.insertFinalNewline": true,
+    "files.autoSave": "onWindowChange",
+
+    "window.zoomLevel": 1,
+
+    /* Misc settings */
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "security.workspace.trust.untrustedFiles": "open",
+    "telemetry.telemetryLevel": "off",
+    "settingsSync.keybindingsPerPlatform": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "gitlens.codeLens.enabled": false,
+    
+    /* Git settings */
+    "git.confirmSync": false,
+    "git.ignoreMissingGitWarning": false,
+    
+    /* Styling settings */
+    "workbench.colorTheme": "React Theme",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.activityBar.location": "top",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.scrollbar.verticalScrollbarSize": 9,
+    "editor.scrollbar.horizontalScrollbarSize": 9,
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "vscode_custom_css.imports": [
+        "file:///<editme>/Code/Custom/style.css",
+        "file:///<editme>/Code/Custom/script.js"
+    ],
+
+    /* Extension: Discord RPC */
+    "discord.detailsEditing": "Editing:",
+    "discord.detailsDebugging": "Debugging {dir_name}/{file_name}",
+    "discord.lowerDetailsDebugging": "{null}",
+    "discord.lowerDetailsEditing": "{dir_name}/{file_name}",
+    "discord.largeImage": "Editing a {lang} file",
+
+    /* Extension: SourcePawn Studio */
+    "sourcepawn.AuthorName": "sh0tx",
+    "sourcepawn.GithubName": "sh0tx420",
+    "sourcepawn.trace.server": "trace",
+    "SourcePawnLanguageServer.compiler.path": "",
+    "SourcePawnLanguageServer.includeDirectories": [
+        "<editme>\\sourcemod\\includes\\base",
+    ],
+    
+    /* Extension: AMXXPawn */
+    "amxxpawn.compiler.executablePath": "<editme>\\amxmodx\\bin\\amxxpc.exe",
+    "amxxpawn.compiler.includePaths": [
+        "<editme>\\amxmodx\\includes\\base",
+        "<editme>\\amxmodx\\includes\\reapi",
+        "<editme>\\amxmodx\\includes\\custom"
+    ],
+    "amxxpawn.compiler.outputPath": "<editme>\\amxmodx\\plugins",
+    "amxxpawn.compiler.outputType": "path",
+    "amxxpawn.language.webApiLinks": true,
+    "amxxpawn.compiler.showInfoMessages": true,
+    
+    /* Extension: CMake */
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.configureOnOpen": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    
+    /* Extension: C3Lang LSP */
+    "c3.lsp.enable": true,
+    "c3.lsp.path": "<editme>\\c3-lsp.exe",
+    "c3.lsp.sendCrashReports": false
+}
