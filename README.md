@@ -1,2 +1,2 @@
 # dotfiles
-configuration files and documents
+configuration files, scripts and documents
