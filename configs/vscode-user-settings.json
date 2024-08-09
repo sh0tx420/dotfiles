@@ -62,11 +62,15 @@
     ],
 
     /* Extension: Discord RPC */
-    "discord.detailsEditing": "Editing:",
+    "discord.detailsEditing": "Workspace: {workspace}",
     "discord.detailsDebugging": "Debugging {dir_name}/{file_name}",
     "discord.lowerDetailsDebugging": "{null}",
-    "discord.lowerDetailsEditing": "{dir_name}/{file_name}",
+    "discord.lowerDetailsEditing": "{dir_name}/{file_name} | {file_size}",
     "discord.largeImage": "Editing a {lang} file",
+    "discord.detailsIdling": "AFK",
+    "discord.largeImageIdling": "AFK",
+    "discord.lowerDetailsIdling": "AFK",
+    "discord.swapBigAndSmallImage": true,
 
     /* Extension: SourcePawn Studio */
     "sourcepawn.AuthorName": "sh0tx",
